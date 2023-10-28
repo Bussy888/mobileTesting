@@ -1,6 +1,6 @@
 package estructura.testSuite;
 
-import estructura.activities.MainCalculator;
+import estructura.activitiesCalculator.MainCalculator;
 import estructura.session.Session;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
@@ -10,6 +10,7 @@ public class CalculatorTest {
     MainCalculator mainCalculator = new MainCalculator();
     @Test
     public void verifyAddCalculator(){
+        mainCalculator.acceptButton.click();
         mainCalculator.fiveButton.click();
         mainCalculator.addButton.click();
         mainCalculator.sevenButton.click();

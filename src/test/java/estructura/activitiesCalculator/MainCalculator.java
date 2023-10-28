@@ -1,4 +1,4 @@
-package estructura.activities;
+package estructura.activitiesCalculator;
 
 import estructura.control.Button;
 import estructura.control.Label;
